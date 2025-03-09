@@ -14,7 +14,13 @@ class Program
         {
             string kodePos = KodePos.GetKodePos(kelurahan);
             Console.WriteLine("- " + kelurahan + ": " + kodePos);
+            
         }
+
+        Console.WriteLine("\nSoal 2. Door Machine ");
+
+        DoorMachine doorMachine = new DoorMachine();
+        doorMachine.Jalankan();
     }
 
 }
